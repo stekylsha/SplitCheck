@@ -66,3 +66,9 @@ The following aspects of the solution will be considering when evaluating a subm
 - Readability of the code
 - Performance of the algorithm
 
+
+## Building the Project
+
+This project includes a [Gradle](https://gradle.org) build script that can be used to compile the code and run the tests. You will need a Java Development Kit 8 or newer installed and a `JAVA_HOME` variable pointing to this installation. 
+
+It's *not* necessary to install Gradle to build this project. The [gradlew](./gradlew) (for Mac and Linux) and [gradlew.bat](./gradlew.bat) (for Windows) scripts can be be used to run the builds without a pre-existing local installation.     
