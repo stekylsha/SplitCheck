@@ -51,19 +51,19 @@ Charlie = 10
 ### Assumptions and Requirements
 
 - Assume the value of an item is an integer and divisible by the number of individuals that consumed it. The objective of this restriction is to avoid having to deal with rounding in the code. Optionally, you may choose to support indivisible values. If you decide to do so, please clearly indicate that option when submitting your solution.
-- The order in which each name shows in the output is not defined.
+- The order for which each name should appear in the output is not defined. In other words, it's not necessary to sort the output by name, value or any other criterion.
 - The value of an item can be zero, or negative. This type of item can be use to represent a discount in the check.
 - The program output should not return the names of individuals that don't have to pay anything in the specified check.
-- A single test case is provided, to illustrate the example above. You're encouraged to evolve this test or add more test cases, as you deem appropriate.
+- A single test case is provided, to illustrate the example in the previous section. You're encouraged to evolve this test or add more test cases, as you deem appropriate.
 
-### Aspects
+### Relevant Aspects
 
 The following aspects of the solution will be considering when evaluating a submission:
 
 - The correctness of the implementation
 - If the solution accounts for all requirements
 - Solution design an application of object-oriented principles
-- Readability of the code
+- Readability of the source code
 - Performance of the algorithm
 
 
@@ -71,4 +71,6 @@ The following aspects of the solution will be considering when evaluating a subm
 
 This project includes a [Gradle](https://gradle.org) build script that can be used to compile the code and run the tests. You will need a Java Development Kit 8 or newer installed and a `JAVA_HOME` variable pointing to this installation. 
 
-It's *not* necessary to install Gradle to build this project. The [gradlew](./gradlew) (for Mac and Linux) and [gradlew.bat](./gradlew.bat) (for Windows) scripts can be be used to run the builds without a pre-existing local installation.     
+It's *not* necessary to install Gradle to build this project. The [gradlew](./gradlew) (for Mac and Linux) and [gradlew.bat](./gradlew.bat) (for Windows) scripts can be be used to run the builds without a pre-existing local installation.
+
+This project requires a connection to the Internet to download build dependencies.
